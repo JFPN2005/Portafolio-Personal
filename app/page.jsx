@@ -12,7 +12,7 @@ import Stats from '@/components/Stats';
 const Home = () => {
   // Download CV
   const handleDownloadCV = () => {
-    const pdfUrl = '/assets/curriculum/CV - Javier Pineda.pdf';
+    const pdfUrl = '/assets/curriculum/Javier Pineda - CV Actualizado.pdf';
     const link = document.createElement('a');
     link.href = pdfUrl;
     link.download = 'CV - Javier Pineda.pdf';
